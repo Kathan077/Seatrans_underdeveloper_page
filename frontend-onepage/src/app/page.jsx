@@ -92,21 +92,21 @@ const ACHIEVEMENTS = [
   {
     icon: <Leaf size={26}/>,
     title: "Major Castor Oil Exporter",
-    desc: "One of India's significant exporters of castor oil — managing end-to-end supply chain from Gujarat farms to global buyers across 40+ countries.",
+    desc: "One of India's significant exporters of castor oil managing end-to-end supply chain from Gujarat farms to global buyers across 40+ countries.",
     stat: "40+ Countries",
     color: "green"
   },
   {
     icon: <Box size={26}/>,
     title: "Agri Products Specialist",
-    desc: "Extensive expertise in bulk agri-commodity handling — seeds, spices, pulses, and processed foods with full phytosanitary compliance and documentation.",
+    desc: "Extensive expertise in bulk agri-commodity handling  seeds, spices, pulses, and processed foods with full phytosanitary compliance and documentation.",
     stat: "5000+ Shipments",
     color: "gold"
   },
   {
     icon: <Award size={26}/>,
     title: "20+ Years of Excellence",
-    desc: "Two decades of trusted freight forwarding expertise — building deep carrier relationships and proven port-level execution across every major Indian port.",
+    desc: "Two decades of trusted freight forwarding expertise  building deep carrier relationships and proven port-level execution across every major Indian port.",
     stat: "Est. 2004",
     color: "blue"
   },
@@ -326,7 +326,7 @@ export default function Home() {
 
     try {
       const formData = new FormData();
-      formData.append("access_key", "dc9a435f-ac9e-470a-8942-2e0bd00924c8");
+      formData.append("access_key", "790c417d-b007-4768-aeb3-31648b8c332c");
       formData.append("name", form.name);
       formData.append("company", form.company);
       formData.append("email", form.email);
@@ -413,7 +413,7 @@ export default function Home() {
               India's Trusted Partner for End-to-End Freight & Logistics
             </h1>
             <p className="hero-sub">
-              Seatrans delivers complete supply chain solutions — sea freight, custom clearance, warehousing, 3PL, port handling, and project cargo. Our digital platform is launching soon.
+              Seatrans delivers complete supply chain solutions  sea freight, custom clearance, warehousing, 3PL, port handling, and project cargo. Our digital platform is launching soon.
             </p>
             <div className="hero-services-preview">
               {["Sea Freight", "Custom Clearance", "Warehousing", "3PL", "Port Handling"].map(s => (
